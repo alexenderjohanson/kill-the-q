@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="6dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="6dp"
+    android:weightSum="6" >
+
+    <TextView
+        android:layout_weight="5"
+        android:id="@+id/tvQueueNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/queue_cell"
+        android:gravity="center_vertical"
+        android:minHeight="60dp"
+        android:paddingBottom="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="6dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/story_font_color" />
+
+    <ImageButton
+        android:layout_weight="1"
+        android:id="@+id/btnDequeue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/queue_cell_dequeue"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:minHeight="60dp"
+        android:minWidth="60dp"
+        android:src="@drawable/ic_menu_close_clear_cancel" />
+
+</LinearLayout>

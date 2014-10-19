@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KillTheQ</string>
+    <string name="title_section1">Queue</string>
+    <string name="title_section2">Queue Master</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_leave_queue">Leave Queue</string>
+    <string name="action_settings">Settings</string>
+    <string name="queue_enter_queue">Enter Queue</string>
+    <string name="queue_getting_queue">Entering queue</string>
+    <string name="queue_to_go">To Go</string>
+    <string name="queue_error">Ops... queue gone haywire. Please try again.</string>
+    <string name="notification_title">Your turn is coming soon!</string>
+    <string name="notification_summary">Please be at the counter</string>
+    <string name="action_give_way">Give Way</string>
+    <string name="action_create_notification">Create Notification</string>
+    <string name="action_refresh">Refresh</string>
+    
+</resources>
